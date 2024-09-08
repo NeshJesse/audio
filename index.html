@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Notes to Audiobooks</title>
+  <meta name="description" content="Transform your TLDR study notes PDFs into audiobooks with StudySound. Learn on the go!">
+    <meta name="keywords" content="study notes, audiobooks, PDF to audio, student tools">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.studysound.com/">
+    <meta property="og:title" content="StudySound - PDF Notes to Audio">
+    <meta property="og:description" content="Convert your study notes to audio and learn anywhere, anytime.">
+    <meta property="og:image" content="https://www.studysound.com/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.studysound.com/">
+    <meta property="twitter:title" content="StudySound - PDF Notes to Audio">
+    <meta property="twitter:description" content="Convert your study notes to audio and learn anywhere, anytime.">
+    <meta property="twitter:image" content="https://www.studysound.com/twitter-image.jpg">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md py-4">
+    <div class="container mx-auto flex justify-between items-center px-4">
+      <div class="text-2xl font-bold">StudyNotes Audio</div>
+      <div class="space-x-4 hidden md:flex">
+        <a href="#home" class="text-gray-700 hover:text-blue-500">Home</a>
+        <a href="#contact" class="text-gray-700 hover:text-blue-500">Contact</a>
+        <a href="#cta" class="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">Get Started</a>
+      </div>
+      <!-- Mobile menu button -->
+      <div class="md:hidden">
+        <button id="menu-toggle" class="text-gray-700">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <!-- Mobile menu -->
+    <div id="mobile-menu" class="hidden flex flex-col md:hidden px-4">
+      <a href="#home" class="py-2 text-gray-700 hover:text-blue-500">Home</a>
+      <a href="#contact" class="py-2 text-gray-700 hover:text-blue-500">Contact</a>
+      <a href="#cta" class="py-2 px-4 bg-blue-500 text-white rounded-lg hover:bg-blue-600">Get Started</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="py-12">
+    <div class="container mx-auto flex flex-col-reverse md:flex-row items-center px-4">
+      <!-- Image on the left -->
+      <div class="md:w-1/2">
+        <img src="https://via.placeholder.com/400" alt="Student studying" class="w-full rounded-lg shadow-lg">
+      </div>
+      <!-- Text on the right -->
+      <div class="md:w-1/2 md:pl-8">
+        <h1 class="text-4xl font-bold text-gray-800 mb-4">Turn Your Study Notes into Audiobooks</h1>
+        <p class="text-gray-600 mb-6">Upload your study notes PDFs and get an audio version to listen to anytime, anywhere. Perfect for exam prep, commuting, or reviewing notes while relaxing.</p>
+        <a href="#cta" class="px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600">Get Started</a>
+      </div>
+    </div>
+  </section>
+  <!-- How It Works Section -->
+<section id="how-it-works" class="py-12 bg-gray-100">
+  <div class="container mx-auto text-center px-4">
+    <h2 class="text-3xl font-bold text-gray-800 mb-6">How It Works</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="p-6 bg-white rounded-lg shadow-lg">
+        <img src="https://via.placeholder.com/100" alt="Step 1" class="mx-auto mb-4">
+        <h3 class="text-xl font-bold text-gray-800 mb-2">Upload Your PDF</h3>
+        <p class="text-gray-600">Select your TLDR study notes PDF file and upload it to our platform in seconds.</p>
+      </div>
+      <div class="p-6 bg-white rounded-lg shadow-lg">
+        <img src="https://via.placeholder.com/100" alt="Step 2" class="mx-auto mb-4">
+        <h3 class="text-xl font-bold text-gray-800 mb-2">Processing</h3>
+        <p class="text-gray-600">Our system converts your study notes into an audiobook quickly and efficiently.</p>
+      </div>
+      <div class="p-6 bg-white rounded-lg shadow-lg">
+        <img src="https://via.placeholder.com/100" alt="Step 3" class="mx-auto mb-4">
+        <h3 class="text-xl font-bold text-gray-800 mb-2">Download & Listen</h3>
+        <p class="text-gray-600">Once the conversion is done, download your audiobook and start listening!</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Benefits Section -->
+<section id="benefits" class="py-12">
+  <div class="container mx-auto text-center px-4">
+    <h2 class="text-3xl font-bold text-gray-800 mb-6">Why Choose StudyNotes Audio?</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="p-6 bg-white rounded-lg shadow-lg">
+        <img src="https://via.placeholder.com/100" alt="Convenience" class="mx-auto mb-4">
+        <h3 class="text-xl font-bold text-gray-800 mb-2">Convenience</h3>
+        <p class="text-gray-600">Listen to your study notes anytime, anywhere, making study sessions more flexible and convenient.</p>
+      </div>
+      <div class="p-6 bg-white rounded-lg shadow-lg">
+        <img src="https://via.placeholder.com/100" alt="Time-Saving" class="mx-auto mb-4">
+        <h3 class="text-xl font-bold text-gray-800 mb-2">Time-Saving</h3>
+        <p class="text-gray-600">Get through your study materials faster by listening while you do other tasks, like commuting or exercising.</p>
+      </div>
+      <div class="p-6 bg-white rounded-lg shadow-lg">
+        <img src="https://via.placeholder.com/100" alt="Easy to Use" class="mx-auto mb-4">
+        <h3 class="text-xl font-bold text-gray-800 mb-2">Easy to Use</h3>
+        <p class="text-gray-600">The platform is designed to be user-friendly, making it simple to upload files and access your audiobooks.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- FAQ Section -->
+<section id="faq" class="py-12 bg-gray-100">
+  <div class="container mx-auto text-center px-4">
+    <h2 class="text-3xl font-bold text-gray-800 mb-6">Frequently Asked Questions</h2>
+    <div class="max-w-3xl mx-auto text-left">
+      <div class="mb-6">
+        <h3 class="text-xl font-bold text-gray-800">How long does it take to convert my study notes into an audiobook?</h3>
+        <p class="text-gray-600">It typically takes just a few minutes, depending on the size of your file.</p>
+      </div>
+      <div class="mb-6">
+        <h3 class="text-xl font-bold text-gray-800">Can I convert any type of PDF?</h3>
+        <p class="text-gray-600">Yes, as long as the file contains text. Scanned documents may not work as expected.</p>
+      </div>
+      <div class="mb-6">
+        <h3 class="text-xl font-bold text-gray-800">Is there a limit on the number of PDFs I can upload?</h3>
+        <p class="text-gray-600">No, you can upload as many files as you need, with each conversion processed individually.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Call to Action Section -->
+  <section id="cta" class="bg-blue-100 py-12">
+    <div class="container mx-auto text-center px-4">
+      <h2 class="text-3xl font-bold text-gray-800 mb-4">Ready to Convert Your Study Notes?</h2>
+      <p class="text-gray-600 mb-6">Upload your PDF now and get your audiobook in minutes!</p>
+      <a href="#upload" class="px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600">Upload Now</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-12">
+    <div class="container mx-auto text-center px-4">
+      <h2 class="text-3xl font-bold text-gray-800 mb-4">Contact Us</h2>
+      <p class="text-gray-600 mb-6">Have questions or need help? Reach out to us via email at <a href="mailto:support@studynotesaudio.com" class="text-blue-500">support@studynotesaudio.com</a>.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-4 text-center">
+    <p>&copy; 2024 StudyNotes Audio. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById('menu-toggle').addEventListener('click', function() {
+      const menu = document.getElementById('mobile-menu');
+      menu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
